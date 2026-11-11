@@ -1,0 +1,10 @@
+{
+  "paymentTransactionId": "TXN-FINTECH-GLOBAL-9901",
+  "debtorAccountNumber": "ACC-US-RETAIL-44910",
+  "creditorAccountNumber": "ACC-EU-SETTLEMENT-88210",
+  "settlementAmount": 1000.00,
+  "currencyCode": "USD",
+  "valueDate": "2026-11-11",
+  "isSimulatedNetworkRetry": true,
+  "forceDuplicateRejection": false
+}

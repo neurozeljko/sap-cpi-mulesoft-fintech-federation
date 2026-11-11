@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FinTechPaymentInboundSchema",
+  "type": "object",
+  "properties": {
+    "paymentTransactionId": { "type": "string" },
+    "debtorAccountNumber": { "type": "string" },
+    "creditorAccountNumber": { "type": "string" },
+    "settlementAmount": { "type": "number" },
+    "currencyCode": { "type": "string" },
+    "valueDate": { "type": "string" },
+    "isSimulatedNetworkRetry": { "type": "boolean" },
+    "forceDuplicateRejection": { "type": "boolean" }
+  },
+  "required": ["paymentTransactionId", "debtorAccountNumber", "creditorAccountNumber", "settlementAmount", "currencyCode"]
+}
